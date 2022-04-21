@@ -17,4 +17,6 @@ int main() {
     scanf("%s", src_s);
     reverse(src_s, s);
     printf("%s\n", s);
+
+    return 0;
 }

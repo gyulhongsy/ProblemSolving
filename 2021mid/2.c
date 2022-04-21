@@ -21,4 +21,6 @@ int main() {
         div /= 10;
     }
     printf("\n");
+
+    return 0;
 }

@@ -10,7 +10,7 @@ void pick(int n, int* bucket, int bucketSize, int k) {
         return;
     }
 
-    lastIndex = bucketSize - k - 1; //ê°€ì¥ ìµœê·¼ì— ë½‘íŒ ìˆ˜ê°€ ì €ì¥ëœ ìœ„ì¹˜ index
+    lastIndex = bucketSize - k - 1; //ê°??¥ ìµœê·¼?— ë½‘íŒ ?ˆ˜ê°? ????¥?œ ?œ„ì¹? index
 
     smallest = 0;
 
@@ -22,7 +22,7 @@ void pick(int n, int* bucket, int bucketSize, int k) {
 
 int main() {
     int n = 5; //0~(n-1) item
-    int bucket[3]; //ëª‡ê°œë¥¼ ë½‘ì•„ ë‹´ì„ ìˆ˜ ìˆëŠ” ê³µê°„
+    int bucket[3]; //ëª‡ê°œë¥? ë½‘ì•„ ?‹´?„ ?ˆ˜ ?ˆ?Š” ê³µê°„
 
-    pick(n, bucket, 3, 3); //itemì •ë³´, ë‹´ì„ ê³³ê³¼ í¬ê¸°, ë½‘ëŠ” ê°¯ìˆ˜
+    pick(n, bucket, 3, 3); //item? •ë³?, ?‹´?„ ê³³ê³¼ ?¬ê¸?, ë½‘ëŠ” ê°??ˆ˜
 }
