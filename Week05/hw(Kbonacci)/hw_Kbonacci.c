@@ -2,12 +2,12 @@
 
 int k_bonacci(int k, int n) {
     int i, result = 0;
-    if (n <= k) return 1;
-    else {
-        for (i = 1; i <= k; i++)
-            result += k_bonacci(k, n-i);
-        return result;
-    }
+    if (n >= 1 && n <= k) return 1;
+
+    for (i = 1; i <= k; i++)
+        result += k_bonacci(k, n-i);
+        
+    return result;
 }
 
 int main() {
